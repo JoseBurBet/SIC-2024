@@ -1,0 +1,26 @@
+[
+    {
+        "id": "cba23028-3177-44d4-b7c5-5d1a1a1a5e59",
+        "nombre": "varyan",
+        "raza": "humano",
+        "clase": "guerrero",
+        "vida": "1200",
+        "mana": "900"
+    },
+    {
+        "id": "5e2bee47-b7f0-4ff1-a318-5618ab323b6d",
+        "nombre": "trhall",
+        "raza": "orco",
+        "clase": "chaman",
+        "vida": "900",
+        "mana": "1500"
+    },
+    {
+        "id": "fb9bb902-92ee-461c-b767-7d2ff79ce5f8",
+        "nombre": "shigueru",
+        "raza": "elfo",
+        "clase": "druida",
+        "vida": "2000",
+        "mana": "1300"
+    }
+]
