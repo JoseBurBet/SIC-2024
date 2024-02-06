@@ -1,0 +1,1 @@
+En esta carpeta encontraremos clase a clase los ejercicios realizados para el grupo P04 en el SIC 2024
