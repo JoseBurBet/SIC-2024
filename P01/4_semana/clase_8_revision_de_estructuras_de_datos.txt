@@ -1,0 +1,66 @@
+________________________________________________stack()__________________________________________
+stack() y pila son lo mismo
+
+Last-In/First-Out (LIFO)
+
+LINK 1 : https://www.geeksforgeeks.org/stack-in-python/#:~:text=A%20stack%20is%20a%20linear,often%20called%20push%20and%20pop.
+LINK 2 : https://realpython.com/how-to-implement-python-stack/
+
+_________________________________________________queue()___________________________________________
+queue() y cola son lo msimo
+
+First In First Out (FIFO)
+
+# investigo sobre queue: https://www.geeksforgeeks.org/queue-in-python/
+#alli observo que :
+
+# **Enqueue: Adds an item to the queue.
+# **Dequeue: Removes an item from the queue. 
+#            The items are popped in the same order in which they are pushed
+
+_____________________________________________RESUMEN________________________________
+#Tomado de: 
+# http://profesores.elo.utfsm.cl/~agv/elo320/01and02/dataStructures/stacksQueueListTree.pdf
+
+Stacks y Queues
+• Los stacks y las queues son conjuntos dinámicos en los que el elemento removido por
+    Delete está predefinido.
+#______________________________DIFERENCIA!!!!!_______________________________________
+
+• En stacks sólo se puede remover el elemento más recientemente insertado. Implementa
+    así una política last-in, first-out o LIFO.
+• Las queues sólo pueden remover el elemento más antiguo del conjunto. Implementa una
+    política first-in, first-out o FIFO.
+#______________________________________________________________________________________
+    
+    
+    • Stacks
+        – La operación Insert es llamada aquí PUSH.
+        – La operación Delete es llamada POP.
+        – Si se hace un pop de un stack vacío, decimos que hay un underflow, 
+            lo cual es un error de programa.
+        – Si la implementación de el stack posee un límite para el número de elementos 
+            y éste se excede, decimos que hay un overflow. También es un error.
+        – Se incorpora la función TOP que retorna el valor más reciente sin modificar el stack.
+
+        
+    • Queues
+        – La operación Insert es llamada Enqueue.
+        – La operación Delete es llamada Dequeue.
+        – Cada queue tiene una head (cabeza) y una tail (cola).
+        – También se pueden producir las condiciones de overflow y underflow cuando la
+            implementación tiene capacidad limitada.
+        – Se incorpora la función Head que retorna el valor más antiguo de la cola.
+        
+        
+________________________________________________HASH_________________________--
+
+https://pythondiario.com/2018/06/tabla-hash-en-python.html 
+
+en el Steamvirtual en el
+#chp 4 page 247 modulo c&p
+
+
+
+
+        
