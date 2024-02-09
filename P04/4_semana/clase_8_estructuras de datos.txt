@@ -1,0 +1,66 @@
+
+_______________________________________Stack()____________________________-
+
+stack y pila son lo mismo 
+Last-In/First-Out (LIFO)
+
+
+https://realpython.com/how-to-implement-python-stack/
+
+https://www.geeksforgeeks.org/stack-in-python/#:~:text=A%20stack%20is%20a%20linear,often%20called%20push%20and%20pop.
+
+
+https://pythondiario.com/2018/06/implementacion-de-una-pila-stack-en.html
+
+
+push() -> agrega elementos al final de la lista
+pop()   -> elimina el ultimo elemento de la lista
+
+__________________________________Queue()___________________________________-
+queue y cola son lo mismo
+
+Fisrt-In/ Fist-out (FIFO)
+
+https://www.geeksforgeeks.org/queue-in-python/
+
+enqueue() -> agrega un elemento al final de la lista
+dequeue() -> elimina el primer elemento de la lista
+
+_________________________________Diferencia__________________________________
+
+
+• En stacks sólo se puede remover el elemento más recientemente insertado. Implementa
+    así una política last-in, first-out o LIFO.
+• Las queues sólo pueden remover el elemento más antiguo del conjunto. Implementa una
+    política first-in, first-out o FIFO.
+#_________________________________________
+
+
+    • Stacks
+        – La operación Insert es llamada aquí PUSH.
+        – La operación Delete es llamada POP.
+        – Si se hace un pop de un stack vacío, decimos que hay un underflow, 
+            lo cual es un error de programa.
+        – Si la implementación de el stack posee un límite para el número de elementos 
+            y éste se excede, decimos que hay un overflow. También es un error.
+        – Se incorpora la función TOP que retorna el valor más reciente sin modificar el stack.
+
+        
+       • Queues
+        – La operación Insert es llamada Enqueue.
+        – La operación Delete es llamada Dequeue.
+        – Cada queue tiene una head (cabeza) y una tail (cola).
+        – También se pueden producir las condiciones de overflow y underflow cuando la
+            implementación tiene capacidad limitada.
+        – Se incorpora la función Head que retorna el valor más antiguo de la cola.
+        
+        
+_________________________________________________Hash__________________________________________--
+
+
+https://pythondiario.com/2018/06/tabla-hash-en-python.html 
+
+en el Steamvirtual en el
+#chp 4 page 247 modulo c&p
+
+
