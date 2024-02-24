@@ -61,6 +61,6 @@ _________________________________________________Hash___________________________
 https://pythondiario.com/2018/06/tabla-hash-en-python.html 
 
 en el Steamvirtual en el
-#chp 4 page 247 modulo c&p
+#chp 4 estructuras de datos parte 2/  page 178 modulo c&p
 
 
